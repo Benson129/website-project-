@@ -1,0 +1,66 @@
+/* Whole page */
+body{
+    background-color:#1f2937;
+    font-family:Arial, sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    margin:0;
+}
+
+/* Login Box */
+
+.container{
+    background:white;
+    padding:30px;
+    width:300px;
+    border-radius:15px;
+    box-shadow:0 0 20px rgba(0,0,0,.3);
+}
+
+/* Heading */
+
+h1{
+    text-align:center;
+    color:#2563eb;
+}
+
+/* Input boxes */
+
+input{
+    width:100%;
+    padding:12px;
+    margin-top:12px;
+    margin-bottom:18px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+    box-sizing:border-box;
+}
+
+/* Button */
+
+button{
+    width:100%;
+    padding:12px;
+    background:#2563eb;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:18px;
+    cursor:pointer;
+}
+
+/* Mouse Hover */
+
+button:hover{
+    background:#1d4ed8;
+}
+
+/* Small text */
+
+p{
+    text-align:center;
+    color:gray;
+}
